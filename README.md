@@ -22,6 +22,7 @@ afplay /System/Library/Sounds/@@@.aiff -v 0.0001
 <b>USE</b>
 <p>Get the script - forkit, git clone, download zip, copy and paste and save it as <b>***.sh</b> - your choice.<br>
 Then, run it <b>./keepBluetooth.sh</b></p>
+<p>You could also, ofcourse, put it in your PATH, create an alias, put it to run as your mac starts - again, your choice</p>
 
 
 
