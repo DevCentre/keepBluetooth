@@ -18,7 +18,7 @@ afplay /System/Library/Sounds/@@@.aiff -v 0.0001
 </code>
 
 
-<br>
+<br><br>
 <b>USE</b>
 <p>Get the script - forkit, git clone, download zip, copy and paste and save it as <b>***.sh</b> - your choice.<br>
 Then, run it <b>./keepBluetooth.sh</b></p>
