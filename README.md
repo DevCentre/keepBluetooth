@@ -4,17 +4,18 @@ An small script to enforce bluetooth connection (MacOS).
 
 
 <b>WHY</b><br>
-<p>This repository was created to share the best solution I came up with to enforce my bluetooth connection. I have an bluetooth headset that keep turning off automatically after ridiculous ~3 seconds ! I mean, it is a nice battery feature to turn itself off when no sound is beeing played, but 3 seconds is too low for that, and as I coundn't figure it out how to increase this time of turn it off I decided to write this simple shell script.</p>
+<p>This repository was created to share the best solution I came up with to enforce my bluetooth connection. I have a bluetooth headset that keep turning off automatically after ridiculous ~3 seconds ! I mean, it is a nice battery feature to turn itself off when no sound is beeing played, but 3 seconds is too low for that, and as I coundn't figure it out how to increase this auto turn off lenght, I decided to write this simple shell script.</p>
 
 
 <br><br>
 <b>SUPORTED PLATAFORMs</b><br>
-<p>Although it(script) uses a macos 'exclusive' binary, with this concept you <em>should</em> be able to modify and adapt to your own enviroment.</p>
+<p>Although it(script) uses a macOS 'exclusive' binary, with the concept used here you <em>should</em> be able to modify and adapt to your own enviroment/OS.</p>
 
 <br>
 <b>CODE</b>
+<p>The main part of the code is shown bellow. The afplay is an apple file player binary developed by and for apple.</p>
 <code>
-afplay /System/Library/Sounds/@@@.aiff -v 0.0001
+afplay /System/Library/Sounds/[Any_Sound].aiff -v 0.0001
 </code>
 
 
